@@ -1,0 +1,189 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>mi primer html</title> 
+ <style> 
+ form { 
+ margin: 0 auto; 
+ width: 400px; 
+ padding: 1em; 
+ border: 1px solid #CCC; 
+ border-radius: 1em; 
+ } 
+  
+ ul { 
+ list-style: none; 
+ padding: 0; 
+ margin: 0; 
+ } 
+  
+ form li+li { 
+ margin-top: 1em; 
+ } 
+  
+ label { 
+ display: inline-block; 
+ width: 90px; 
+ text-align: right; 
+ }
+  
+ input, 
+ textarea { 
+ font: 1em sans-serif; 
+ width: 300px; 
+ box-sizing: border-box; 
+ border: 1px solid #999; 
+ } 
+  
+ input:focus, 
+ textarea:focus { 
+ border-color: #000; 
+ } 
+  
+ textarea { 
+ vertical-align: top; 
+ height: 5em; 
+ } 
+  
+ .button { 
+ padding-left: 90px; 
+ } 
+  
+ button { 
+ margin-left: .5em; 
+ } 
+ </style> 
+</head> 
+<body> 
+ <h1>Bienvenido a mi pagina</h1> 
+ <p><em>Este es mi primer elemento</em>.</p> 
+ <form action="/my-handling-form-page" method="post"> 
+ <ul> 
+ <li> 
+ <label for="name">Nombre:</label> 
+ <input type="text" id="name" name="user_name">  </li> 
+ <li> 
+ <label for="mail">Correo electronico:</label>  <input type="email" id="mail" name="user_mail">  </li> 
+ <li> 
+ <label for="msg">Mensaje:</label> 
+ <textarea id="msg" name="user_message"></textarea>  </li> 
+ <li class="button"> 
+ <button type="submit">Envie su mensaje</button>  </li> 
+ </ul> 
+ </form> 
+ <h2>Tabla simple</h2> 
+ <table border="1"> 
+ <tr> 
+ <td>Hola, soy tu primera celda.</td> 
+ <td>Soy tu segunda celda.</td>
+ <td>Soy tu tercera celda.</td> 
+ <td>Soy tu cuarta celda.</td> 
+ </tr> 
+ <tr> 
+ <td>Segunda fila, primera celda.</td> 
+ <td>Celda 2.</td> 
+ <td>Celda 3.</td> 
+ <td>Celda 4.</td> 
+ </tr> 
+ </table> 
+ <h2>Tabla con encabezados</h2> 
+ <table border="1"> 
+ <tr> 
+ <th>Dato 1</th> 
+ <th>Dato 2</th> 
+ </tr> 
+ <tr> 
+ <td>Calcuta</td> 
+ <td>Pizza</td> 
+ </tr> 
+ <tr> 
+ <td>Robots</td> 
+ <td>Jazz</td> 
+ </tr> 
+ </table> 
+ <h2>Tabla con estilos en columnas</h2> 
+ <table border="1"> 
+ <colgroup> 
+ <col> 
+ <col style="background-color: yellow"> 
+ </colgroup> 
+ <tr> 
+ <th>Dato 1</th> 
+ <th>Dato 2</th> 
+ </tr> 
+ <tr> 
+ <td>Calcuta</td> 
+ <td>Pizza</td> 
+ </tr> 
+ <tr> 
+ <td>Robots</td> 
+ <td>Jazz</td> 
+ </tr> 
+ </table> 
+ <h2>Tabla de horario de cursos de idiomas</h2> 
+ <table border="1"> 
+ <colgroup> 
+ <col> 
+ <col> 
+ <col style="background-color:#97DB9A"> 
+ <col style="width: 42px;"> 
+ <col style="background-color:#97DB9A"> 
+ <col style="background-color:#DCC48E; border:4px solid #C1437A;">  <col style="width: 42px;"> 
+ <col style="width: 42px;"> 
+ </colgroup> 
+ <tr>
+ <th> </th> 
+ <th>Lunes</th> 
+ <th>Martes</th> 
+ <th>Miércoles</th> 
+ <th>Jueves</th> 
+ <th>Viernes</th> 
+ <th>Sábado</th> 
+ <th>Domingo</th> 
+ </tr> 
+ <tr> 
+ <td>1st period</td> 
+ <td>English</td> 
+ <td> </td> 
+ <td> </td> 
+ <td>German</td> 
+ <td>Dutch</td> 
+ <td> </td> 
+ <td> </td> 
+ </tr> 
+ <tr> 
+ <td>2nd period</td> 
+ <td>English</td> 
+ <td>English</td> 
+ <td> </td> 
+ <td>German</td> 
+ <td>Dutch</td> 
+ <td> </td> 
+ <td> </td>  
+ </tr> 
+ <tr> 
+ <td>3er period</td> 
+ <td> </td> 
+ <td>German</td> 
+ <td> </td> 
+ <td>German</td> 
+ <td>Dutch</td> 
+ <td> </td> 
+ <td> </td> 
+ <tr> 
+ <td>4th period</td> 
+ <td>English</td> 
+ <td> </td> 
+ <td> </td> 
+ <td>German</td> 
+ <td>Dutch</td> 
+ <td> </td> 
+ <td> </td> 
+ </tr> 
+  
+ </table> 
+</body> 
+</html> 
+
+
