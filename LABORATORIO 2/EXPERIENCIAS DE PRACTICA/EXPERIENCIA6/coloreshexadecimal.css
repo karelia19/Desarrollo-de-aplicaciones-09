@@ -1,0 +1,20 @@
+.elemento-hex-azul {
+    background-color: #0000FF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-hex-verde {
+    background-color: #008000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-hex-rojo {
+    background-color: #FF0000;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}

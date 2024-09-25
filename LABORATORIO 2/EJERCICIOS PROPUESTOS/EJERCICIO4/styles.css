@@ -1,0 +1,143 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo suave */
+    color: #333; /* Texto en gris oscuro para mejor contraste */
+    font-size: 16px; /* Aumentar tamaño de texto base */
+}
+
+header {
+    background-color: #ffccea; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Color de texto de enlaces */
+    text-decoration: none;
+    font-weight: bold; /* Resaltar enlaces */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo al hacer hover o foco */
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px; /* Aumentar el margen inferior para reducir el espacio entre secciones */
+    padding: 20px; /* Añadir padding a las secciones */
+    background-color: #ffffff; /* Fondo blanco para mejor contraste */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+section h2 {
+    color: #333; /* Color del encabezado */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para imágenes */
+.metodo-imagen,
+.pomodoro-imagen,
+.estudio-imagen {
+    width: 100%; /* Hacer las imágenes responsivas */
+    max-width: 600px; /* Ajustar el ancho máximo de las imágenes */
+    height: auto; /* Mantener la proporción de las imágenes */
+    display: block; /* Asegurar que la imagen sea un bloque */
+    margin: 20px auto; /* Centrar las imágenes */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Fondo oscuro para el pie de página */
+    color: white; /* Texto blanco */
+}
+
+/* Estilos para el botón animado */
+.animado {
+    background-color: #ff69b4; /* Rosado más intenso */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Añadir foco a los botones */
+.animado:focus {
+    outline: 2px dashed #ff1493; /* Contorno para enfoque */
+}
+
+.animado:hover {
+    background-color: #ff1493; /* Rosado más oscuro */
+    transform: scale(1.1); /* Escala el botón */
+}
+
+/* Animación de entrada */
+@keyframes entrar {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplicar animación al botón */
+.animado {
+    animation: entrar 0.5s ease forwards; /* Animación de entrada al cargar */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        margin-bottom: 20px; /* Reducir margen en pantallas pequeñas */
+    }
+}

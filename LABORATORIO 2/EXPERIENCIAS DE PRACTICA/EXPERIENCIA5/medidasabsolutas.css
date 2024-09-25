@@ -1,0 +1,31 @@
+.elemento-px {
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+/* Usando cm */
+.elemento-cm {
+    width: 10cm;
+    height: 5cm;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+/* Usando mm */
+.elemento-mm {
+    width: 100mm;
+    height: 50mm;
+    background-color: lightcoral;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 16px;
+}

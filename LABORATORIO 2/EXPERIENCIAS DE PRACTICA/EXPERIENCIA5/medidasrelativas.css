@@ -1,0 +1,27 @@
+.elemento-percent {
+    width: 50%;
+    height: 30%;
+    background-color: lightblue;
+    margin: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+/* Usando em */
+.elemento-em {
+    font-size: 2em;
+    padding: 1em;
+    background-color: lightgreen;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Usando rem */
+.elemento-rem {
+    font-size: 1.5rem;
+    margin: 2rem;
+    background-color: lightcoral;
+    padding: 10px;
+    text-align: center;
+}

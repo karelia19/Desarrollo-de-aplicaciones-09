@@ -1,0 +1,20 @@
+.elemento-rgb-entero {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-rgb-porcentaje {
+    background-color: rgb(0%, 100%, 0%);
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-rgb-otro {
+    background-color: rgb(0, 0, 255);
+    color: yellow;
+    padding: 10px;
+    text-align: center;
+}

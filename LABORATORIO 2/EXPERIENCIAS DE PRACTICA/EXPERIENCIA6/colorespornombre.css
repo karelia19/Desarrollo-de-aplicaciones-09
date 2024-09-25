@@ -1,0 +1,20 @@
+.elemento-azul {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-verde {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.elemento-rojo {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+header h1 {
+    color: #c71585;
+    text-align: center;
+    margin: 20px 0;
+}
+nav {
+    background-color: #a9a9a9;
+    padding: 15px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+main {
+    padding: 20px;
+}
+article {
+    margin-bottom: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
