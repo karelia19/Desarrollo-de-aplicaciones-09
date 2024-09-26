@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de CSS Grid</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 100px 200px 100px 100px; /* Ajuste de filas */
+            gap: 10px;
+        }
+        .item {
+            border: 1px dashed black;
+        }
+        .item1 {
+            grid-column: span 2;
+            background-color: teal; /* Color ajustado */
+        }
+        .item2 {
+            grid-row: span 2;
+            background-color: brown; /* Color ajustado */
+        }
+        .item3 {
+            grid-column: span 2;
+            background-color: purple; /* Color ajustado */
+        }
+        .item:nth-child(4) {
+            background-color: blue; /* Color ajustado */
+        }
+        .item:nth-child(5) {
+            background-color: green; /* Color ajustado */
+        }
+        .item:nth-child(6) {
+            background-color: yellow; /* Color ajustado */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">1</div>
+        <div class="item item2">2</div>
+        <div class="item item3">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>
+</body>
+</html>
